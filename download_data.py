@@ -12,6 +12,7 @@ import random
 # You can get your API token from https://developer.themoviedb.org/docs
 # token = <Your TMDB token>
 
+# Warning: Running this code takes a lot of time. It required 26 hours for my laptop with an M3 Pro chip, even with threading and 100% CPU utilization. Try to download the file instead.
 
 def download_movid_ids(date_str="11_14_2023"):
     if not os.path.isdir('tmdb_resources'):
@@ -152,6 +153,5 @@ def download_credits(tmdb_id2detail):
         json.dump(tmdb_id2credit, f)
     
 if __name__ == '__main__':
-#    tmdb_id2detail = download_detail()
-    tmdb_id2detail = json.load(open('tmdb_resources/tmdb_id2detail.json','r'))
+    tmdb_id2detail = download_detail()
     download_credits(tmdb_id2detail)
