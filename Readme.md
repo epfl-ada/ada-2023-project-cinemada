@@ -11,7 +11,9 @@ In this project we aim to investigate the following questions:
 - Is it a key to success to subsequently cast in more expensive movies?
 - What is better for the actor's career: a lead role in a less-known/lower-budget movie or a secondary role in a successful/higher-budget movie?
 - What is the importance of a lead role for the actor's career? Is it possible to make a successful career only with secondary roles?
+  
 ## Additional Datasets
+
 - TMDB Database
 
   **Motivation** It contains information about the popularity and average ratings of actors and corresponding movies, which is necessary for analysis of an actor's success. Movie production budget and box office revenue data from this database are required for the high-budget role analysis.
@@ -43,14 +45,12 @@ In this project we aim to investigate the following questions:
 
 ## Proposed timeline and internal milestones
 
-**Oct 29 - Nov 17**: Data preprocessing and formulation of the research questions and hypotheses
+**Oct 29 - Nov 17**: Data exploration and preprocessing, formulation of the research questions and hypotheses
 
-**Nov 18 - Nov 24**: Lead Role Analysis
+**Nov 18 - Nov 28**: Construction of all the charts and plots needed for each analysis (Dividing the work across the 5 members)
 
-**Nov 25 - Dec 1**: High-Budget Role Analysis
+**Nov 29 - Dec 8**: Results analysis and correlation investigation
 
-**Dec 2 - Dec 8**: Career Defining Analysis
+**Dec 9 - Dec 12**: Discussion and review of results between teams and cross-comparison
 
-**Dec 9 - Dec 15**: Career Trajectory Analysis
-
-**Dec 16 - Dec 22**: Final validation of the results, design of a data story
+**Dec 13 - Dec 22**: Final validation of the results, design of a data story
