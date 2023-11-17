@@ -1,11 +1,15 @@
 # Cinemada - Project 2
 ## Title: How do the roles of an actor influence their career?
 ## Abstract:
+
+In the world of cinema,  some actors often find themselves typecast, portraying specific personas across various movies, thereby becoming associated with particular genres and character archetypes. Some shine on the blockbuster’s screen and are known worldwide and acclaimed by the critics, meanwhile others are less popular and struggle to make a name for themselves in the industry. But how did they get there? Many actors tried to do the same but have not been as successful. How do the career trajectories differ between these two groups? This project aims to guide an actor wanna-be in his quest to success. To do so, we aim to analyze different actor’s trajectories depending on their success and understand its correlation with their first roles personas (romance, comedy, action,..) and role class (lead, secondary…). 
+
 ## Research Questions:
-- Does an actor's debut role define their career and the types of roles they will play?
+- Does an actor's first roles define their career and the types of roles they will play?
 - Is it a key to success to subsequently cast in more expensive movies?
 - What is better for the actor's career: a lead role in a less-known/lower-budget movie or a secondary role in a successful/higher-budget movie?
 - What is the importance of a lead role for the actor's career? Is it possible to make a successful career only with a secondary roles?
+  
 ## Additional Datasets:
 - TMDB Database
 
@@ -30,8 +34,9 @@
 
 1. **Lead Role Analysis** We calculate various career success metrics (e.g., popularity, people's votes, awards (??? we don't have data for it), box office earnings) for movies where the actor had a lead role and compare it to movies where they didn't. We visualize the impact of lead roles on an actor's career using bar charts or box plots.
 
-2. **High-Budget Role Analysis** TBD
-3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory. For it we plot the histograms to display the distribution of career trajectories based on the first role.
+2. **High-Budget Role Analysis** 
+   
+3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory class. For it we plot the histograms to display the distribution of career trajectories classes based on the first role.
 
 4. **Career Trajectory Analysis** We expand the previous analysis by tracking an actor's career progression. We identify key milestones in their career, such as the first lead role, different class of role taken or breakthrough performance and make chronological plot with rating/success.
 
@@ -48,8 +53,6 @@
 **Dec 9 - Dec 15**: Career Trajectory Analysis
 
 **Dec 16 - Dec 22**: Final validation of the results and creating a presentation of the whole datastory
-
-
 
 ## Milestones:
 
