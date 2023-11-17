@@ -27,17 +27,17 @@ In this project we aim to investigate the following questions:
 
 1. Classification of actors career trajectories (action stars, romantic leads, etc). We assign each actor the movie genres of their three most known movies / weighted average genre of their movies based on the success of movies.
 
-2. Identifying lead roles and secondary roles  based on the number of occurrences of the characters' names in the synopsis
+2. Identifying lead roles and secondary roles  based on the number of occurrences of the characters' names in the synopsis.
 
-3. Classification of the high-budget/low-budget roles based on production budgets and revenues of the movies 
+3. Classification of the high-budget/low-budget roles based on production budgets and revenues of the movies. We find a suitable criterion to categorize films into low-budget and high-budget groups, which mantains similar proportions of the movies with high success rate in each group.
 
-4. Defining the success of the actor combining popularity and average ratings data from the TMDB database
+4. Defining the success of the actor combining popularity and average ratings data from the TMDB database.
 
 **Main analysis**
 
 1. **Lead Role Analysis** We calculate various career success metrics (e.g., popularity, people's votes, box office earnings) for movies where the actor had a lead role and compare it to movies where they didn't. We visualize the impact of lead roles on an actor's career using bar charts or box plots.
 
-2. **High-Budget Role Analysis** 
+2. **High-Budget Role Analysis** We compare career success metrics which do not rely on an actor's financial profit (e.g. popularity and people's votes) for actors, appeared mostly in high-budget movies against low-bugdet ones. We examine the influence of a movie genre and a prevalent role class (lead or secondary) to explore the following trade-off: better starring at the low-bugdet movie or taking secondary role in the high-budget film?
    
 3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory class. For it we plot the histograms to display the distribution of career trajectories classes based on the persona of the first role. The latter information will be extracted from the CMU dataset's character clusters.
 
@@ -47,7 +47,7 @@ In this project we aim to investigate the following questions:
 
 **Oct 29 - Nov 17**: Data exploration and preprocessing, formulation of the research questions and hypotheses
 
-**Nov 18 - Nov 28**: Construction of all the charts and plots needed for each analysis (Dividing the work across the 5 members)
+**Nov 18 - Nov 28**: Construction of all the charts and plots needed for each analysis (Dividing the work on parts 1-4 of the main analysis across the 5 group members)
 
 **Nov 29 - Dec 8**: Results analysis and correlation investigation
 
