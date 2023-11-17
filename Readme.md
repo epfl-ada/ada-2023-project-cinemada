@@ -39,7 +39,7 @@ In this project we aim to investigate the following questions:
 
 2. **High-Budget Role Analysis** 
    
-3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory class. For it we plot the histograms to display the distribution of career trajectories classes based on the first role.
+3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory class. For it we plot the histograms to display the distribution of career trajectories classes based on the persona of the first role. The latter information will be extracted from the CMU dataset's character clusters.
 
 4. **Career Trajectory Analysis** We expand the previous analysis by tracking an actor's career progression. We identify key milestones in their career, such as the first lead role, different class of role taken or breakthrough performance and make chronological plot with rating/success.
 
