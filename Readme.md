@@ -37,9 +37,6 @@
 
 ## Timeline:
 
-![Gantt Chart](Support\timeline.png)
-
-
 **Oct 29 - Nov 17**: Data preprocessing and formulation of the research questions and hypotheses
 
 **Nov 18 - Nov 24**: Lead Role Analysis
