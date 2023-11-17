@@ -36,6 +36,10 @@
 4. **Career Trajectory Analysis** We expand the previous analysis by tracking an actor's career progression. We identify key milestones in their career, such as the first lead role, different class of role taken or breakthrough performance and make chronological plot with rating/success.
 
 ## Timeline:
+
+![Gantt Chart](Support\timeline.png)
+
+
 **Oct 29 - Nov 17**: Data preprocessing and formulation of the research questions and hypotheses
 
 **Nov 18 - Nov 24**: Lead Role Analysis
@@ -47,6 +51,8 @@
 **Dec 9 - Dec 15**: Career Trajectory Analysis
 
 **Dec 16 - Dec 22**: Final validation of the results and creating a presentation of the whole datastory
+
+
 
 ## Milestones:
 
