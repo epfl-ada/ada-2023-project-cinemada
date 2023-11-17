@@ -31,13 +31,11 @@ In this project we aim to investigate the following questions:
 
 3. Classification of the high-budget/low-budget roles based on production budgets and revenues of the movies. We find a suitable criterion to categorize films into low-budget and high-budget groups, which mantains similar proportions of the movies with high success rate in each group.
 
-4. Defining the success of the actor combining popularity and average ratings data from the TMDB database.
-
 **Main analysis**
+We defining the success of the actor combining popularity and average people's votes data from the TMDB database. 
+1. **Lead Role Analysis** We calculate various career success metrics for movies where the actor had a lead role and compare it to movies where they didn't. We visualize the impact of lead roles on an actor's career using bar charts or box plots. We aim to decect correlation between the percentage of lead roles in an actor's career and their popularity and income.
 
-1. **Lead Role Analysis** We calculate various career success metrics (e.g., popularity, people's votes, box office earnings) for movies where the actor had a lead role and compare it to movies where they didn't. We visualize the impact of lead roles on an actor's career using bar charts or box plots.
-
-2. **High-Budget Role Analysis** We compare career success metrics which do not rely on an actor's financial profit (e.g. popularity and people's votes) for actors, appeared mostly in high-budget movies against low-bugdet ones. We examine the influence of a movie genre and a prevalent role class (lead or secondary) to explore the following trade-off: better starring at the low-bugdet movie or taking secondary role in the high-budget film?
+2. **High-Budget Role Analysis** We compare career success metrics which do not rely on an actor's financial profit (e.g. popularity and people's votes) for actors, appeared mostly in high-budget movies against low-bugdet ones. We can also check if the difference in mean success metric for high-budget vs low-budget actors is statistically significant by hypothesis testing.  We examine the influence of a movie genre and a prevalent role class (lead or secondary) to explore the following trade-off: better starring at the low-bugdet movie or taking secondary role in the high-budget film?
    
 3. **Career Defining Analysis** We explore if debut roles influence the subsequent roles of an actor and their career trajectory class. For it we plot the histograms to display the distribution of career trajectories classes based on the persona of the first role. The latter information will be extracted from the CMU dataset's character clusters.
 
