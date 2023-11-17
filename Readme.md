@@ -32,6 +32,7 @@ In this project we aim to investigate the following questions:
 3. Classification of the high-budget/low-budget roles based on production budgets and revenues of the movies. We find a suitable criterion to categorize films into low-budget and high-budget groups, which mantains similar proportions of the movies with high success rate in each group.
 
 **Main analysis**
+
 We defining the success of the actor combining popularity and average people's votes data from the TMDB database. 
 1. **Lead Role Analysis** We calculate various career success metrics for movies where the actor had a lead role and compare it to movies where they didn't. We visualize the impact of lead roles on an actor's career using bar charts or box plots. We aim to decect correlation between the percentage of lead roles in an actor's career and their popularity and income.
 
