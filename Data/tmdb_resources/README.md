@@ -2,9 +2,9 @@ These datas are tiny subset of the full data.
 
 You can download the full dataset here with EPFL account.
 
-Movie detail: [https://drive.google.com/file/d/1zQZ7XkwJooR3HEysPbLp5ndOnOkm1reC/view?usp=sharing](https://drive.google.com/file/d/1-A-JMdB4cniEsR-kW2fhqD3YdF4hkBej/view?usp=sharing)
+Movie detail: [https://drive.google.com/file/d/1-A-JMdB4cniEsR-kW2fhqD3YdF4hkBej/view?usp=sharing](https://drive.google.com/file/d/1-A-JMdB4cniEsR-kW2fhqD3YdF4hkBej/view?usp=sharing)
 
-Movie credit: [https://drive.google.com/file/d/1-LLtFBB7MRRUZ1vp0skLvaX91z88xSaJ/view?usp=sharing](https://drive.google.com/file/d/1Qdw86KTL_rEZ8iMLpXmfxH9VSu1dAyj2/view?usp=sharing)
+Movie credit:  [https://drive.google.com/file/d/1Qdw86KTL_rEZ8iMLpXmfxH9VSu1dAyj2/view?usp=sharing](https://drive.google.com/file/d/1Qdw86KTL_rEZ8iMLpXmfxH9VSu1dAyj2/view?usp=sharing)
 
 json schema for a single credit
 ```json
