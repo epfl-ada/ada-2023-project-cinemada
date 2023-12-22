@@ -14,7 +14,7 @@ In this project we aim to investigate the following questions:
 - Is it a key to success to subsequently cast in more expensive movies?
 - What is better for the actor's career: a lead role in a less-known/lower-budget movie or a secondary role in a successful/higher-budget movie?
 - What is the importance of a lead role for the actor's career? Is it possible to make a successful career only with secondary roles?
-- 
+  
 ## Additional Datasets
 
 - TMDB Database
@@ -62,7 +62,8 @@ We define the success of the actor by combining popularity and average people's 
   - Genre analysis, construction
   - Preprocessing of success metric
 * Doni:
-  - External dataset preprocessing : By joining information from TMDB API and crawling method, obtained related external data from web source, and extracted mappers. Construct dataset for Train & Evaluate role portion estimation and train Large Language Model to extract role portion from plots.
+  - External dataset preprocessing : By joining information from TMDB API and crawling method, obtained related external data from web source, and extracted mappers.
+  - Construct dataset for Train & Evaluate role portion estimation and train Large Language Model to extract role portion from plots.
 * Marguerite:
    - Data Story
    - Pre-processing removing the actors that ended their careers a long time ago,
