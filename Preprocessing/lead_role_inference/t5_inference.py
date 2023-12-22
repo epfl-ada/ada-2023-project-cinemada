@@ -4,7 +4,7 @@ import torch
 from tqdm import tqdm
 import re
 
-tmdb_ids_path = './tmdb_ids_sample.json'
+tmdb_ids_path = '../tmdb_movie_ids.json'
 tmdb_id2plot_path = './tmdb_id2plot_cmu_only.json'
 tmdb_id2credit_path = './../../Data/tmdb_resources/tmdb_id2credit_full.json'
 save_data_path = './portion_result.json'
@@ -35,6 +35,7 @@ if __name__ == '__main__':
                     } for c in tmdb_id2credit[str(tmdb_id)]['cast']
                 ]
             })
+    print(f'you requested : {len(tmdb_ids)}\n available: {len(valid_sets)}')
     tokenizer = T5Tokenizer.from_pretrained("t5-large")
     model = T5ForConditionalGeneration.from_pretrained("Hyeongdon/t5-large-character_plot_portion").to(device)
     results={}
