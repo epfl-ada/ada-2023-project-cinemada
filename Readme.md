@@ -64,14 +64,14 @@ We define the success of the actor by combining popularity and average people's 
 * Doni:
   - External dataset preprocessing : By joining information from TMDB API and crawling method, obtained related external data from web source, and extracted mappers. Construct dataset for Train & Evaluate role portion estimation and train Large Language Model to extract role portion from plots.
 * Marguerite:
- - Data Story
- - Pre-processing removing the actors that ended their careers a long time ago,
- - Time-scaling of popularity, analysis of the lead roles' influence on the succes.
+   - Data Story
+   - Pre-processing removing the actors that ended their careers a long time ago,
+   - Time-scaling of popularity, analysis of the lead roles' influence on the succes.
 * Sara:
-- Database extraction from TmDB and YouGOV
-- Actor's role analysis
-- Database preprocessing and division of actors into separate groups for analysis
-- Actor's career trajectory
+   - Database extraction from TmDB and YouGOV
+   - Actor's role analysis
+   - Database preprocessing and division of actors into separate groups for analysis
+   - Actor's career trajectory
 * Yasmin:
   - SVR prediction of fame for complete dataset with explainability of the model,
   - Budget analysis
