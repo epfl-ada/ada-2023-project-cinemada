@@ -1,5 +1,8 @@
-# Cinemada - Project Milestone 2
+# Cinemada - Project Milestone 3
 # Title: How do the roles of an actor influence their career?
+
+## Data Story:
+https://margg00.github.io
 
 ## Abstract:
 
@@ -20,7 +23,13 @@ In this project we aim to investigate the following questions:
 
   **Preprocessing** 
   It supports the IMDB key, wikidata key to search. For automatization, we also constructed a mapper for wikipedia_id -> tmdb_id.
+  
+- IMSDB Database
 
+  **Motivation** We need a reliable label for the contribution of each actor on the movie. Though TMDB has ordered credit information, we don't know how it quantitatively meaningful. IMSDB database contain 1.1K of movie scripts and 1K of them can be mapped with the TMDB database and other plots. We crawl IMSDB and construct AI dataset.
+
+  **Preprocessing** 
+  We split movie scripts by character and mapped it with the TMDB field. Details on Preprocessing/
 
 ## Methods
 **Initial analysis and preprocessing**
