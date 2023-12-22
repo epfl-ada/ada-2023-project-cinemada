@@ -40,6 +40,8 @@ In this project we aim to investigate the following questions:
 
  We use two sources of popularity estimation: a tmdB popularity of an actor and YouGov database of the most famous actors
 
+ The YouGov dataset contains only 1500 actors, providing the fame feature only for a subset of our actors, therefore, we trained an SVR model to predict the fame metric for the rest of our dataset. This analysis can be found on /Preprocessing/fame_SVR_prediction.ipynb. At the same time, we used the explainability of the model to get some insights into the main features that could influence the success of an actor.
+
 We can aggregate these factors as follows:
 
 $ Success(P, W) = P + F + \sqrt{W} $
